@@ -1,0 +1,18 @@
+<h1>Payment with Form </h1>
+<form action="/payment/result">
+  <div> 
+    <label for="apr">APR</label>
+    <input id="apr" type="text" name="apr">
+  </div> 
+  <div>
+    <label for="years">Number of years</label>
+    <input id="years" type="text" name="years">
+  </div>
+  <div>
+    <label for="pv">Principal</label>
+    <input id="pv" type="text" name="pv">
+  </div>
+  <button>Calculate monthly payment</button>
+</form>
+
+<h2>The result is <%= @P %> </h2>
